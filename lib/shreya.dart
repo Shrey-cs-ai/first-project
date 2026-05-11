@@ -23,7 +23,7 @@ void handlogout(BuildContext context){
     context: context,
     builder: (context) {
       return AlertDialog( //pop a screen with log out button
-        title:Text("Log out"),
+        title:Text("Log outs"),
         content:Text("Are you sure you want to logout"),
         actions:[
           TextButton(

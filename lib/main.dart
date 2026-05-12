@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:project/formvalidation.dart';
 import 'package:project/line.dart';
 import 'package:project/listview.dart';
 import 'package:project/login.dart';
@@ -41,7 +42,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: .fromSeed(seedColor: const Color.fromARGB(255, 221, 201, 5)),
       ),
-      home:PageLogin(),
+      home:Validation(),
     );
   }
 }
